@@ -1,0 +1,24 @@
+<!DOCTYPE html lang="en-us">
+<html>
+  <head>
+    <script src="lawyer_chat.js"></script>
+    <link rel="stylesheet" href="lawyer_chat.css">
+    <title>LawyerChat</title>
+  </head>
+  <body onload="LC.setup()">
+    <div>
+      Please stop blathering, we are paying you
+      <br>$
+      <input id="hourlyRate" value="500" type="number">
+      per hour
+    </div>
+    <button id="startCounter">Start Counter</button>
+    <button id="stopCounter">Stop Counter</button>
+    <div id="dollarCountDiv" class="dollarCount">
+      <span id="dollarSign">$</span> <span id="dollarCount">0.00</span>
+    </div>
+    <div id="timeCountDiv">
+      <span id="timeCount">0:00</span>
+    </div>
+  </body>
+</html>

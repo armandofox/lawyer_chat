@@ -1,0 +1,14 @@
+html {
+    font-size: large;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#timeCountDiv, #dollarCountDiv {
+    display: block;
+}
+
+input#hourlyRate {
+    width: 5em;
+}
+
+
